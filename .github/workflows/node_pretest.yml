@@ -1,0 +1,32 @@
+# This workflow will run tests using node and then publish a package to GitHub Packages when a release is created
+# For more information see: https://help.github.com/actions/language-and-framework-guides/publishing-nodejs-packages
+
+name: "Tests: pretest"
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  pretest:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        packages:
+          - eslint-config-base
+
+    defaults:
+      run:
+        working-directory: "packages/${{ matrix.package }}"
+
+    steps:
+      # Checkout the Repo
+      - uses: actions/checkout@v2
+      # Install Node lts/*
+      - uses: actions/setup-node@v2
+        name: 'nvm install lts/* && npm install'
+        with:
+          node-version: 'lts/*'
+      - run: npm install
