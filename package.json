@@ -4,6 +4,8 @@
   "description": "Javascript Style guide for Virkone",
   "main": "index.js",
   "scripts": {
+		"preinstall": "npm run install:config",
+		"install:config": "cd packages/eslint-config-base && npm prune && npm install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
