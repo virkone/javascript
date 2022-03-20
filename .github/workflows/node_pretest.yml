@@ -29,5 +29,4 @@ jobs:
         name: 'nvm install lts/* && npm install'
         with:
           node-version: 'lts/*'
-      - run: pwd
       - run: npm install
