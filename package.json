@@ -1,0 +1,24 @@
+{
+  "name": "virkone-javascript-style",
+  "version": "1.0.0",
+  "description": "Javascript Style guide for Virkone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/virkone/javascript.git"
+  },
+  "keywords": [
+    "style",
+    "guide",
+    "lint"
+  ],
+  "author": "Shabith Ishan <shabith.ishan@gmail.com> (https://twitter.com/shabith)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/virkone/javascript/issues"
+  },
+  "homepage": "https://github.com/virkone/javascript#readme"
+}
