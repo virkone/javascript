@@ -10,5 +10,5 @@ Javascript Styleguide for Virkone heavily inspired and based on [Airbnb javascri
 
 ## Packages
 
-1. **@virkone/eslint-config-base** - [link](https://github.com/virkone/javascript/packages/eslint-config-base) - A package provides typescript based eslint configuration as extensible shared config.
+1. **@virkone/eslint-config-base** - [link](https://github.com/virkone/javascript/tree/main/packages/eslint-config-base) - A package provides typescript based eslint configuration as extensible shared config.
 2. **@virkone/eslint-config-nextjs** - TODO
