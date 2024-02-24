@@ -23,9 +23,9 @@ jobs:
 
     steps:
       # Checkout the Repo
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       # Install Node lts/*
-      - uses: actions/setup-node@v2
+      - uses: actions/setup-node@v4
         name: 'nvm install lts/* && npm install'
         with:
           node-version: 'lts/*'
