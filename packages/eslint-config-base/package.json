@@ -1,6 +1,6 @@
 {
   "name": "@virkone/eslint-config-base",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Virkone EsLint Configuration Base",
   "main": "index.js",
   "scripts": {
