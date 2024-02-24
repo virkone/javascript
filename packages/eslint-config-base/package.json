@@ -9,7 +9,7 @@
   "author": "Shabith Ishan (https://shabith.com)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/virkone/javascript"
+    "url": "git+https://github.com/virkone/javascript.git"
   },
   "homepage": "https://github.com/virkone/javascript",
   "license": "ISC",
