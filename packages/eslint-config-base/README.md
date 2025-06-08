@@ -14,7 +14,7 @@ A package provides typescript based eslint configuration as extensible shared co
 >This configuration is for project with
 `typescript`,`eslint` and `prettier`.
 
-if you are using npm 5+, use below shortcut to install all the peer dependecies.
+if you are using npm 5+, use below shortcut to install all the peer dependencies.
 
 `npx install-peerdeps --dev @virkone/eslint-config-base`
 
