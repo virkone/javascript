@@ -4,7 +4,7 @@
   "description": "Virkone EsLint Configuration Base",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/config.test.js"
   },
   "author": "Shabith Ishan (https://shabith.com)",
   "repository": {
